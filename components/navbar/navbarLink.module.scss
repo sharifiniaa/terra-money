@@ -20,4 +20,16 @@
       color: map-get($colors, 'black');
     }
   }
+
+
+  @include media-breakpoint-down(md) {
+    border-radius: 0;
+    font-size: map-get($font-sizes, 8);
+    color: map-get($colors, 'gray');
+    &--active {
+      border-radius: 0;
+      background-color: transparent;
+      color: map-get($colors, 'white-3');
+    }
+  }
 }

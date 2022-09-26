@@ -1,4 +1,5 @@
-import 'styles/app.scss'
+import 'styles/app.scss';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import {
   getChainOptions,
   StaticWalletProvider,

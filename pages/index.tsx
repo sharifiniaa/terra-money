@@ -3,10 +3,8 @@ import ConnectToWallet from '../components/connect'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, enim.</h2>
-
-      {/*<ConnectToWallet/>*/}
+    <div className='py-5'>
+      <h1 className='text-weight-900'>Dashboard</h1>
     </div>
   )
 }

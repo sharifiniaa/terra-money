@@ -1,6 +1,6 @@
 @import './vars';
 @import './bootstrap';
-@import './utilities/mixins';
+@import './utilities';
 
 
 html,
@@ -15,4 +15,9 @@ body {
 
 #__next {
   height: 100%;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
 }

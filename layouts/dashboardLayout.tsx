@@ -10,12 +10,9 @@ export const DashboardLayout = ({children}: Props) => {
     return (
         <div>
             <Header/>
-            <main>
+            <main className='container'>
                 {children}
             </main>
-            <footer>
-                <span>Lorem ipsum dolor sit amet.</span>
-            </footer>
         </div>
     )
 }

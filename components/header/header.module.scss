@@ -1,13 +1,45 @@
 .header {
-  &__items {
-    list-style: none;
-  }
+
+  position: relative;
+  z-index: 3;
 
   &__action {
     background-color: transparent;
-    padding: 4px 1em;
+    padding: 2px 1em;
     border: 1px solid map-get($colors, 'green');
     color: map-get($colors, 'green');
     border-radius: 20px;
+  }
+
+
+  &__navbar-mobile {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    height: calc(100% - 64px);;
+    background: map-get($colors, 'black-1');
+
+    &--open {
+      animation: slideInDown 250ms ease-in;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    &__navbar-mobile {
+      display: none;
+    }
+  }
+
+
+}
+
+
+@keyframes slideInDown {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: calc(100% - 64px);
   }
 }
