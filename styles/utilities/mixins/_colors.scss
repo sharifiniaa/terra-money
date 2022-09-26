@@ -1,0 +1,11 @@
+@each $colorPrefix, $color in $colors {
+  .color-#{$colorPrefix} {
+    color: $color !important;
+  }
+  .bg-color-#{$colorPrefix} {
+    background-color: $color;
+  }
+  .border-color-#{$colorPrefix} {
+    border-color: $color !important;
+  }
+}

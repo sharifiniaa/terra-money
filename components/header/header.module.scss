@@ -1,0 +1,13 @@
+.header {
+  &__items {
+    list-style: none;
+  }
+
+  &__action {
+    background-color: transparent;
+    padding: 4px 1em;
+    border: 1px solid map-get($colors, 'green');
+    color: map-get($colors, 'green');
+    border-radius: 20px;
+  }
+}

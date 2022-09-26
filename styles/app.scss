@@ -1,0 +1,18 @@
+@import './vars';
+@import './bootstrap';
+@import './utilities/mixins';
+
+
+html,
+body {
+  font-size: 16px;
+  height: 100%;
+  font-family: $font-family-base;
+  background-color: map-get($colors, 'white-1');
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#__next {
+  height: 100%;
+}

@@ -1,0 +1,17 @@
+@import '~bootstrap/scss/functions';
+
+// custom variables
+@import './custom-variables';
+
+// change bootstrap variables place
+// $primary: #194b9b;
+
+
+// font family place $font-family-base
+
+$font-family-base: "Roboto", Tahoma, serif;
+
+@import '~bootstrap/scss/variables';
+@import "~bootstrap/scss/maps";
+@import '~bootstrap/scss/mixins';
+@import "~bootstrap/scss/utilities";
