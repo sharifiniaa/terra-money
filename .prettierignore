@@ -1,0 +1,7 @@
+node_modules
+public
+src/assets/styles/css/bootstrap.min.css
+coverage
+dist
+build
+.next

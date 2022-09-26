@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from 'next/router'
-import Styles from './activeLink.module.scss'
+import Styles from './navbarLink.module.scss'
 import cn from "classnames";
 
 
@@ -10,7 +10,7 @@ type Props = {
     classNames?: string;
 }
 
-function ActiveLink({ children, href, classNames }: Props) {
+function NavbarLink({ children, href }: Props) {
     const router = useRouter();
 
 
@@ -21,4 +21,4 @@ function ActiveLink({ children, href, classNames }: Props) {
     )
 }
 
-export default ActiveLink
+export default NavbarLink
