@@ -1,12 +1,17 @@
 $colors: (
   'black': #000,
   'black-1': #101010,
+  'black-2': #212529,
+  'black-3': #1F1F1F,
   'white': #fff,
   'white-1': #EFEFEF,
   'white-2': #ffffff66,
   'white-3': #F4F4F5,
+  'white-4': #F4F4FF,
   'green': #4BDB4B,
   'gray': #666,
+  'gray-1': #DADADE,
+  'gray-2': #999999,
 );
 
 $font-sizes: (
@@ -24,7 +29,8 @@ $font-sizes: (
   // 24px
   7: 2rem,
   // 32px
-  8: 2.25rem
+  8: 2.25rem,
+  9: 2.7rem
 );
 
 $font-weights: (

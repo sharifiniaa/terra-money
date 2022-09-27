@@ -1,0 +1,17 @@
+.card {
+  padding: 60px;
+  background-color: map-get($colors, 'white-3');
+  border-radius: 20px;
+  box-shadow: map-get($colors, 'gray-1') 1px 1px 2px, map-get($colors, 'white') -1px -1px 2px;
+
+
+  &__divider {
+    padding: 0;
+    margin: 30px 0;
+    border: 0;
+    height: 5px;
+    border-radius: 3px;
+    background: map-get($colors, 'white-4');
+    box-shadow: map-get($colors, 'gray-1') 1px 1px 2px inset, map-get($colors, 'white') -1px -1px 2px inset;
+  }
+}
