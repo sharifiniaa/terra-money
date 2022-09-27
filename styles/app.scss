@@ -21,3 +21,8 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
+
+.btn-success {
+  background-color: map-get($colors, 'green');
+  border-color: transparent;
+}

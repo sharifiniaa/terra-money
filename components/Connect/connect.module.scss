@@ -1,0 +1,23 @@
+.connect-wallet {
+  position: absolute;
+  padding: 32px 28px;
+  top: 0;
+  right: 0;
+  left: 0;
+  border: 1px solid map-get($colors, 'white');
+  background-color: map-get($colors, 'white');
+  box-shadow: rgb(0 0 0 / 30%) 0 0 21px 4px;
+  z-index: 2;
+  min-width: 260px;
+  border-radius: 1rem;
+  font-weight: 500;
+
+
+  @include media-breakpoint-down(md) {
+    width: 80%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+}

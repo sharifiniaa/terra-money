@@ -9,6 +9,15 @@
     border: 1px solid map-get($colors, 'green');
     color: map-get($colors, 'green');
     border-radius: 20px;
+    position: relative;
+  }
+
+  &__value{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-flex;
+    width: 85px;
   }
 
 
